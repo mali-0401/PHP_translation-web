@@ -1,0 +1,144 @@
+.signdiv /*登入框框*/
+{
+  height: 240px;
+  width: 400px;
+  margin-top: 20px;
+  border-style: double;
+  border-width: 3px;
+  border-color:#8785A2;
+  background-color: #FEFBE7;
+}
+
+.registerdiv /*註冊框框*/
+{
+  height: 480px;
+  width: 400px;
+  margin-top: 20px;
+  border-style: double;
+  border-width: 3px;
+  border-color:#8785A2;
+  background-color: #FEFBE7;
+}
+
+.forgetdiv /*忘記密碼框框*/
+{
+  height: 250px;
+  width: 400px;
+  margin-top: 20px;
+  border-style: double;
+  border-width: 3px;
+  border-color:#8785A2;
+  background-color: #FEFBE7;
+}
+
+a { /*登入頁面超連結*/
+  color:blue;
+}
+
+.bookmarkdiv /*頁面連結框框*/
+{
+  height: 100%;
+  width: 90%;
+  border-style: double;
+  text-align:center;
+  line-height:50px;
+  border-width: 3px;
+  border-color:#8785A2;
+  background-color: #DBE2EF;
+  border-radius:20px;
+  margin-right:2%; /*div靠右間距，參考https://www.webtech.tw/info.php?tid=CSS_DIV_%E4%B8%A6%E6%8E%92%E8%AA%9E%E6%B3%95*/
+  float:left; /*div並排，參考https://www.webtech.tw/info.php?tid=CSS_DIV_%E4%B8%A6%E6%8E%92%E8%AA%9E%E6%B3%95*/
+}
+
+.bt /*頁面連結按鈕*/
+{
+  width:80%;
+  height:80%;
+  border-radius:10px;
+  font-size:120%;
+  border-width:1px;
+  background-color:#ffffff;
+  color:#2F8F9D;  
+}
+
+.bt:hover ,.now /*頁面連結按鈕 - 滑鼠上移後、當前頁面的按鈕變化*/
+{
+  width:80%;
+  height:80%;
+  border-radius:10px;
+  font-size:120%;
+  font-weight:bold;  
+  background-color:#2F8F9D;
+  color:#ffffff;
+}
+
+.maindiv /*主頁面框框*/
+{
+  min-height:75vh; /*div最小高度，參考http://www.divcss5.com/rumen/r422.shtml*/
+  max-height:75vh; /*div最小高度，參考http://www.divcss5.com/rumen/r422.shtml*/
+  width: 85%;
+  border-style: double;
+  line-height:50px;
+  border-width: 3px;
+  border-radius:20px;
+  border-color:#8785A2;
+  background-color: #DBE2EF;
+  overflow-y:auto; /*div加滾輪，參考https://www.runoob.com/w3cnote/div-scroll.html*/
+  float:left; /*div並排，參考https://www.webtech.tw/info.php?tid=CSS_DIV_%E4%B8%A6%E6%8E%92%E8%AA%9E%E6%B3%95*/
+}
+
+.btchange /*修改資料按鈕*/
+{
+  width:120px;
+  height:80%;
+  border-radius:10px;
+  font-size:120%;
+  border-width:1px;
+  background-color:#ffffff;
+  color:#2F8F9D;
+}
+
+.btchange:hover /*修改資料按鈕 - 滑鼠上移後*/
+{
+  width:120px;
+  height:80%;
+  border-radius:10px;
+  font-size:120%;
+  font-weight:bold;  
+  background-color:#2F8F9D;
+  color:#ffffff;
+}
+
+.btexit /*登出按鈕*/
+{
+  width:80px;
+  height:80%;
+  border-radius:10px;
+  font-size:120%;
+  border-width:1px;
+  background-color:#ffffff;
+  color:#2F8F9D;
+}
+
+.btexit:hover /*登出按鈕 - 滑鼠上移後*/
+{
+  width:80px;
+  height:80%;
+  border-radius:10px;
+  font-size:120%;
+  font-weight:bold;  
+  background-color:#2F8F9D;
+  color:#ffffff;
+}
+
+.tasktr /*任務表格tr*/
+{
+  font-weight:bold;
+  background-color: #CCA8E9;
+}
+
+.picimg{ /*頭像圖片處理*/
+  width: 65px;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,1.00);
+}
